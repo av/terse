@@ -1,0 +1,12 @@
+{
+  "name": "terse",
+  "version": "0.1.0",
+  "description": "Puts the account's remaining 5-hour and weekly budget in front of Claude before each prompt, as instructions to work tighter - not as a bar for you to read",
+  "author": {
+    "name": "Ivan",
+    "url": "https://github.com/av"
+  },
+  "homepage": "https://github.com/av/terse",
+  "license": "MIT",
+  "keywords": ["usage", "limits", "budget", "quota", "hooks", "context"]
+}

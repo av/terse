@@ -1,0 +1,18 @@
+{
+  "name": "terse",
+  "description": "Usage-aware feedback for Claude Code",
+  "owner": {
+    "name": "Ivan",
+    "url": "https://github.com/av"
+  },
+  "plugins": [
+    {
+      "name": "terse",
+      "description": "Puts the account's remaining 5-hour and weekly budget in front of Claude before each prompt, as instructions to work tighter",
+      "source": "./",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": ["usage", "limits", "budget", "hooks"]
+    }
+  ]
+}

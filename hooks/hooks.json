@@ -1,0 +1,29 @@
+{
+  "description": "Injects the account's remaining usage budget before each prompt, as instructions the model can act on",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/hook.js\" --event UserPromptSubmit",
+            "timeout": 5,
+            "statusMessage": "Checking budget"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/hook.js\" --event PreToolUse",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
