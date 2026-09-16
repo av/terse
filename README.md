@@ -1,4 +1,13 @@
-# terse
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.png">
+    <img src="assets/wordmark-light.png" alt="terse" width="420">
+  </picture>
+</p>
+
+<p align="center">
+  <img src="assets/poster-og.png" alt="5-hour limit 78% used, resets in 1h 35m. No exploratory search. Smallest correct diff." width="860">
+</p>
 
 Claude Code already knows how much of your 5-hour and weekly budget is gone. It
 shows that to **you**, in `/usage`, as bars. The model never sees it.
@@ -75,6 +84,10 @@ afternoon, and the nudge says so.
 The binding window is whichever is furthest along — the one that will actually
 stop you. Only that one is mentioned.
 
+<p align="center">
+  <img src="assets/poster-tiers.png" alt="Tier ladder: below 50% silent, 50% watch, 75% tighten, 90% land" width="860">
+</p>
+
 ## Config
 
 `~/.config/terse/config.json`, all keys optional:
@@ -116,6 +129,12 @@ The snapshot is refreshed by Claude Code, not by this plugin. If you have not
 run an interactive session on a machine for a while, its copy is old, and
 `terse` will stay quiet rather than quote a stale percentage at the model.
 
+## Not a dashboard
+
+<p align="center">
+  <img src="assets/poster-square.png" alt="A usage bar shows you 78%. terse shows the model a budget block with directives." width="620">
+</p>
+
 ## Prior art
 
 [claude-code-usage-limits](https://github.com/ridelink0/claude-code-usage-limits)
@@ -123,6 +142,13 @@ does far more: turns-remaining estimates from transcript history, a live panel,
 Codex and Antigravity support. Worth a look if you want the full instrument.
 `terse` is the one-file version of the same idea — one number, three tiers,
 nothing to read.
+
+## Brand
+
+`assets/` holds the mark (`logo.svg`, geometry only — three rules of decreasing
+length, a paragraph getting shorter), the wordmark in both themes, and the
+posters. Ink `#101014`, bone `#e8e6e1`, slate `#6f6f7a`, and one amber `#d8863b`
+that only ever marks the binding window. Type is Source Code Pro throughout.
 
 ## License
 
