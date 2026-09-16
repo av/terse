@@ -6,6 +6,16 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/av/terse"><img src="https://img.shields.io/badge/Claude%20Code-plugin-d8863b?style=flat-square&labelColor=101014" alt="Claude Code plugin"></a>
+  <a href="https://github.com/av/terse/wiki"><img src="https://img.shields.io/badge/docs-wiki-d8863b?style=flat-square&labelColor=101014" alt="Documentation wiki"></a>
+  <a href="https://github.com/av/terse/stargazers"><img src="https://img.shields.io/github/stars/av/terse?style=flat-square&color=d8863b&labelColor=101014" alt="GitHub stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/av/terse?style=flat-square&color=d8863b&labelColor=101014" alt="MIT licence"></a>
+  <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fav%2Fterse"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fav%2Fterse&label=visitors&labelColor=%23101014&countColor=%23d8863b&style=flat-square" alt="Visitors — total and today"></a>
+  <a href="https://github.com/av/harbor"><img src="https://img.shields.io/badge/av-Harbor-101014?style=flat-square" alt="av/harbor"></a>
+  <a href="https://discord.gg/8nDRphrhSF"><img src="https://img.shields.io/badge/Discord-Harbor-101014?style=flat-square&logo=discord&logoColor=d8863b" alt="Discord"></a>
+</p>
+
+<p align="center">
   <img src="assets/poster-og.png" alt="5-hour limit 78% used, resets in 1h 35m. No exploratory search. Smallest correct diff." width="860">
 </p>
 
@@ -42,6 +52,9 @@ The scope of the work does not change. The spend on it does.
 ```
 
 Nothing to configure. It is silent until you cross 50%.
+
+Full documentation — behaviour, configuration, troubleshooting, internals —
+is in the [**wiki**](https://github.com/av/terse/wiki).
 
 ## What it reads
 
